@@ -1,0 +1,71 @@
+body {
+    background: #f9f9f9;
+    font-family: 'Oswald';
+    font-weight: 300;
+}
+.teacher .teach1 {
+    display: inline-block;
+}
+.teach1 .img1 {
+width: 150px;
+height: 210px;
+}
+section {
+    width: 660px;
+    margin: 0 auto;
+}
+.teach1 {
+    width: 215px;
+    padding-bottom: 13px;
+}
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+::after{
+    color: black;
+    display:block;
+}
+.link1::after {
+    content:"зав.каф., професор, д.е.н."
+}
+.link2::after {
+    content:"професор, д.ф.-м.н."
+}
+.link3::after {
+    content:"професор, д.е.н. "
+}
+.link4::after {
+    content:"професор, д.е.н."
+}
+.link5::after {
+    content:"професор, д.е.н."
+}
+.link6::after {
+    content:"доцент, к.е.н."
+}
+.img1:hover {
+    border: 5px solid #00BFFF;
+}
+.img1 {
+    border: 5px solid transparent;
+}
+@media (min-width: 1200px)
+{
+    section {
+     width: 910px;
+ }
+}
+
+@media (max-width: 960px)
+{
+    section {
+        width: 470px;
+    }
+}
+@media (max-width: 480px)
+{
+    section {
+        width: 185px;
+    }
+}
