@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(206, 197, 197);
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #636566;
+}
+.traits {
+    width: 400px;
+}
+.cv_content {
+    display: flex;
+}
+img {
+    width: 355px;
+    border-radius: 70%;
+    margin: 50px 0 0 10px;
+}
+.left_side {
+    width: 40%;
+    padding-left: 35px;
+}
+.title_name {
+    text-align: center;
+    font-size: 45px;
+    margin-left: -45px;
+}
+.mini_title1 {
+    border-bottom: 5px solid black;
+    height: 45px;
+    font-size: 25px;
+}
+li {
+    list-style-type: none;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+.contacts_item {
+    margin-bottom: 12px;
+}
+.traits_item {
+    margin-bottom: 12px;
+}
+.right_side {
+    background: whitesmoke;
+    color: #636566 ;
+    padding-left: 35px;
+    width: 60%;
+}
+.mini_title2 {
+  
+    border-bottom: 5px solid black;
+    height: 45px;
+    font-size: 25px;
+}
+.hobbies_item, .hobbies_item1 {
+    margin-bottom: 20px;
+}
+.hobbies_item span {
+margin-left: 20px;
+}
+.hobbies_item1 span {
+    margin-left: 14.5px;
+    }
+.skills {
+    width: 500px;
+}
+.skills_item {
+    margin-bottom: 12px;
+}
+.education_item2 span {
+display: block;
+}
+.education {
+    display: flex;
+}
+.education_item1 {
+    margin-right: 10px;
+}
+.education_content {
+    width: 300px;
+}
