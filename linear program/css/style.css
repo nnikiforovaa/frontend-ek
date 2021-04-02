@@ -1,0 +1,16 @@
+body {
+    background: PapayaWhip;
+    font-family: 'JetBrains Mono', monospace;
+}
+.wrapper{
+    margin:0 auto;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+.tbl{
+    border-bottom: 5px solid Sienna;
+    height: 45px;
+    font-size: 25px;
+}
